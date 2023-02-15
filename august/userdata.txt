@@ -1,0 +1,8 @@
+Are you able to remember conversations with me?
+What was the first question that I asked you?
+What was your response?
+What is the name of the original bass player for Incubus?
+What was the name of the drummer for The Doors?
+What is the best way to store user data so that openai can understand it and use it?
+how to store user input from python into xml format for openai usage?
+How to set up ElementTree to store user input from python into XML format?
