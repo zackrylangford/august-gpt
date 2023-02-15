@@ -2,7 +2,7 @@ import openai
 from functions import append_user_input, append_august_input
 
 # OpenAI settings
-openai.api_key = "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"
+openai.api_key = "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"
 model_engine = "text-davinci-003"
 
 
