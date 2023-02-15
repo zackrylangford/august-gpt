@@ -22,7 +22,7 @@ prompt = input(f"\n{username}: ")
 while prompt != '--quit':
     
     # Add user input to database
-    append_user_input("userdata.txt", prompt)
+    append_user_input("user-data.txt", prompt)
 
     if prompt != '-quit':
         completion = openai.Completion.create(
@@ -47,7 +47,7 @@ while prompt != '--quit':
     print(f"\n{ai_username}: {response.strip()}")
     
     #Add Marcus output to database
-    append_august_input("augustdata.txt", response.strip())
+    append_august_input("august-data.txt", response.strip())
 
     prompt = input(f"\n{username}: ")
 
