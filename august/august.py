@@ -3,7 +3,7 @@
 import openai
 from functions import append_chat_logs
 # OpenAI settings
-openai.api_key = "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"
+openai.api_key = ""
 model_engine = "text-davinci-003"
 
 
